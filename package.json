@@ -1,0 +1,26 @@
+{
+  "name": "photoshop-cep-plugin",
+  "version": "1.0.0",
+  "description": "A Photoshop plugin for color manipulation using HSV format.",
+  "main": "client/main.js",
+  "scripts": {
+    "build": "echo 'Building the project...'",
+    "start": "echo 'Starting the plugin...'"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0"
+  },
+  "keywords": [
+    "photoshop",
+    "plugin",
+    "cep",
+    "hsv",
+    "color manipulation"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

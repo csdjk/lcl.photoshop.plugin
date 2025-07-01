@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HSV Plugin</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="app">
+        <h3>HSV 工具</h3>
+        <main class="main">
+            <div class="section">
+                <h4>明度检查</h4>
+                <label class="toggle">
+                    <input type="checkbox" id="toggle-brightness-check"> 启用明度检查
+                </label>
+                <div class="row">
+                    <label>明度范围：</label>
+                    <input type="number" id="min-brightness" placeholder="最小值" value="0">
+                    <input type="number" id="max-brightness" placeholder="最大值" value="0.8">
+                </div>
+            </div>
+            <div class="section">
+                <h4>明度调整</h4>
+                <div class="row">
+                    <label>调整系数：</label>
+                    <input type="range" id="brightness-factor" min="0.1" max="2" step="0.1" value="1">
+                </div>
+                <div class="row">
+                    <label>Clamp 范围：</label>
+                    <input type="number" id="clamp-min" placeholder="最小值" value="0">
+                    <input type="number" id="clamp-max" placeholder="最大值" value="1">
+                </div>
+                <button id="apply-adjustments">应用调整</button>
+            </div>
+        </main>
+    </div>
+    <script type="text/javascript" src="./js/CSInterface.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+</body>
+</html>
