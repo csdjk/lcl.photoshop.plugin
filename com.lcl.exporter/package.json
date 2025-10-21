@@ -1,0 +1,26 @@
+{
+  "name": "photoshop-cep-plugin",
+  "version": "1.0.0",
+  "description": "导出插件",
+  "main": "client/main.js",
+  "scripts": {
+    "build": "echo 'Building the project...'",
+    "start": "echo 'Starting the plugin...'"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0"
+  },
+  "keywords": [
+    "photoshop",
+    "plugin",
+    "cep",
+    "export",
+    "color manipulation"
+  ],
+  "author": "LcL",
+  "license": "MIT"
+}
